@@ -206,3 +206,124 @@ nav ul li a{
     text-align: center;
     color: #21243D;
 }
+
+@media  screen and (min-width:375px) {
+    .wrapper{
+        width: 100%;
+    }
+    .navigation{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        display: block;
+        margin-bottom: 20px;
+        height: 550px;
+    }
+    nav .nav-items{
+        text-align: center;
+    }
+    nav ul li{
+        margin-right: 15px;
+    }
+    .navigation .wrapper{
+        display: block;
+        width: 100%;
+        position: relative;
+        
+    }
+    .navigation .wrapper .header-content{
+        display: block;
+    }
+    .navigation .wrapper .hero-image{
+        display: block;
+    }
+    .navigation .wrapper .hero-image img{
+        width: 170.86px;
+        height: 170.86px;
+        position: static;
+        left: 100.52px;
+        top: 83px;
+    }
+
+    .wrapper .header-content {
+        display: block;
+        width: 100%;
+    }
+    .header-content h1{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        color: #21243D;
+        width: 312px;
+    }
+    .header-content p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #21243D;
+        width: 328px;
+    }
+    .header-content a{
+        position: absolute;
+        align-content: center;
+        font-weight: 500;
+        width: 208px;
+        height: 47px;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        left: 82px;
+    }
+    .recent-post{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .recent-post .wrapper {
+        display: block;
+    }
+    .recent-post .wrapper .card1{
+        margin:10px;
+        padding: 0;
+    }
+    .recent-post .wrapper .card1 .article{
+        width: 370px;
+    }
+    .card1 h1{
+        font-weight: 700;
+        width: 327px;
+        font-size: 22px;
+        line-height: 30px;
+        color: #21243D;
+    }
+    .card1 .article p{
+        font-weight: 400;
+        width: 314px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #21243D;
+
+    }
+    .feature-work{
+        display: block;
+        width: 100%;
+    }
+    .feature-work .feature-card{
+        display: block;
+    }
+    .feature-work .feature-card .feature-description .article{
+        width: 340px;
+    }
+    .feature-work .feature-card .feature-description .article p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        width: 340px;
+        color: #21243D;
+    }
+    
+
+}
